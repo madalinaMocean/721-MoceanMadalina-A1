@@ -1,7 +1,7 @@
 package com.company.Model;
 import java.util.Objects;
 
-public class Client implements Comparable<Client>{
+public class Client{
     private int Id;
     private String CompanyName;
     private CompanySize Size;
