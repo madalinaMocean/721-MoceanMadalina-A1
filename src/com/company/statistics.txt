@@ -1,4 +1,4 @@
-4,lasermed GmBh,Medium,675000Zürich
-1,Art Of Fire GmBh,Medium,5338000Thurgau
-2,Mediconsult AG,Large,35850000Zürich
-3,Signvision GmBh,Small,1565000St. Gallen
+4,lasermed GmBh,Medium,67,5000,Zürich
+1,Art Of Fire GmBh,Medium,53,38000,Thurgau
+2,Mediconsult AG,Large,358,50000,Zürich
+3,Signvision GmBh,Small,15,65000,St. Gallen

@@ -30,8 +30,8 @@ public class ClientRepository {
                     client.getId() + character +
                     client.getCompanyName() + character +
                     client.getSize() + character +
-                    client.getNoEmployees()+
-                    client.getIncomeFromCustomer()+
+                    client.getNoEmployees()+character+
+                    client.getIncomeFromCustomer()+character+
                     client.getLocation();
             bufferedWriter.write(line);
             bufferedWriter.newLine();
