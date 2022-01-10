@@ -1,6 +1,7 @@
 package com.company.Model;
+import java.util.Objects;
 
-public class Client {
+public class Client implements Comparable<Client>{
     private int Id;
     private String CompanyName;
     private CompanySize Size;
@@ -9,6 +10,7 @@ public class Client {
     private String Location;
 
     public Client(int id, String companyName, CompanySize size, int noEmployees, int incomeFromCustomer, String location) {
+        super();
         Id = id;
         CompanyName = companyName;
         Size = size;
@@ -64,6 +66,17 @@ public class Client {
 
     public void setLocation(String location) {
         Location = location;
+    }
+
+    @Override
+    public String toString(){
+        return "Client{" +
+                "Id=' " + Id + '\'' +
+                "CompanyName=' "+ getCompanyName() + '\'' +
+                ", Size=' " + getSize() + '\'' +
+                ", NoEmployees=' " + getNoEmployees() + '\'' +
+                ", IncomeFromCustomer=' " + getIncomeFromCustomer() + '\'' +
+                ", Location=' " + getLocation() + '\'' + '}';
     }
 
 
