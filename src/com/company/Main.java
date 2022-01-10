@@ -17,7 +17,7 @@ public class Main {
         ClientService clientService = new ClientService();
 
         try {
-            List<Client> listClient = clientRepository.readFromFile("C:\\Users\\bau\\Documents\\GitHub\\PraktischePrufung\\src\\com\\company\\tiere.txt", "#");
+            List<Client> listClient = clientRepository.readFromFile("C:\\Users\\madal\\IdeaProjects\\PracticMAP\\src\\com\\company\\clientfile.txt", ",");
 
             List<Client> sortedClientsNoEmployees= clientService.sortListClientByNoEmployeesDesc(listClient);
             List<Client> sortedClientsIncome=clientService.sortListClientByIncomeDesc(listClient);

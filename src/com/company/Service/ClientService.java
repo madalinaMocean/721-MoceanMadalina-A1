@@ -14,14 +14,14 @@ public class ClientService {
     public List<Client> sortListClientByNoEmployeesDesc(List<Client> list) {
         return list.stream()
                 .sorted(Comparator.comparingInt(Client::getNoEmployees))
-                .sorted(Collections.reverseOrder())
+                //.sorted(Collections.reverseOrder())
                 .collect(Collectors.toList());
     }
 
     public List<Client> sortListClientByIncomeDesc(List<Client> list) {
         return list.stream()
                 .sorted(Comparator.comparingInt(Client::getIncomeFromCustomer))
-                .sorted(Collections.reverseOrder())
+                //.sorted(Collections.reverseOrder())
                 .collect(Collectors.toList());
     }
 }
